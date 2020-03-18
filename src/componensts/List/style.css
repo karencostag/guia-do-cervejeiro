@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 1em;
+  width: 65%;
+}
+
+.cards_item {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.4rem;
+  flex: 0 90%;
+  width: 150px;
+  text-decoration: none;
+  cursor: default;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 150px;
+    flex: 0 45%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    flex: 0 33%;
+    width: 150px;
+  }
+}
+
+.button-filter {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 10px 0;
+  border-radius: 0 5px 5px 0;
+  box-sizing: border-box;
+}
+
+.name-filter {
+  display: flex;
+  align-items: center;
+  font-family: "Rokkitt", serif;
+  font-size: 20pt;
+  font-weight: 300;
+  padding: 10px;
+  margin: 0;
+  background: linear-gradient(to bottom left, goldenrod 40%, #b8860b 90%);
+  color: white;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Rye&display=swap");
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.6rem;
+  background: linear-gradient(to bottom left, #8b4513 50%, #b8860b 100%);
+  width: 100%;
+}
+
+.card_title {
+  color: #ffffff;
+  font-family: "Rye", cursive;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.card_image {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.img {
+  height: 220px;
+}
+
+.card_text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.87rem;
+}
+
+.button-see-more {
+  color: #ffffff;
+  background-color: goldenrod;
+  padding: 10px;
+  font-size: 12pt;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active-item {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  outline: none;
+}

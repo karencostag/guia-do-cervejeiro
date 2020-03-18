@@ -1,0 +1,9 @@
+.buttons-from-filter {
+  font-family: 'Rokkitt', serif;
+  cursor:pointer;
+  padding: 20px;
+  background: linear-gradient(to bottom left, goldenrod 40%, #b8860b 90%);
+  color: white;
+  font-size: 15pt;
+  border: none;
+}

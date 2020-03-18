@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Rye&display=swap");
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  margin: 20px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(to bottom left, #8b4513 50%, #b8860b 100%);
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 1.25em;
+  width: 55%;
+}
+
+@media (min-width: 40rem) {
+  .card-description {
+    width: 75%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .card-description {
+    width: 85%;
+  }
+}
+
+.beer-name {
+  font-family: "Rye", cursive;
+  color: #ffffff;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+.card-beer {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+}
+
+.beer-image {
+  height: 220px;
+  margin: 2px 20px;
+}
+
+.aside-beer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+.beer-description {
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.button-return {
+  color: #ffffff;
+  background-color: #b8860b;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 2px;
+  left: 76%;
+  cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+  .button-return {
+    left: 84%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .button-return {
+    left: 86%;
+  }
+}
